@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #4A4E74;
+
+}
+
+body {
+    background-color: #23252C;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #4A4E74;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 3px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+}
+
+h2 {
+    padding-top: 12px; 
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #2B283A;
+}
+
+h3 {
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    color: #F47D27;
+}
+
+.buttons--info {
+    padding-top: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    
+}
+
+.container {
+    width: 317px;
+    margin: auto;
+    margin-top: 44px;
+}
+
+.image-beach {
+    object-fit: cover;
+    width: 317px;
+    height: 317px;
+}
+
+.interests--bottom {
+    padding-bottom: 48px;
+}
+
+.rectangle {
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+.rectangle--info {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.rectangle--middle {
+    text-align: left;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.rectangle--footer {
+    background: #D5D4D8;
+    height: 64px;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
